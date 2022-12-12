@@ -7,12 +7,41 @@
    viewBox="0 0 335.39224 167.32657"
    version="1.1"
    id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="principal.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.96156338"
+     inkscape:cx="369.19043"
+     inkscape:cy="417.02919"
+     inkscape:window-width="1586"
+     inkscape:window-height="807"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2" />
   <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(36.646591,-88.79052)">
     <image
@@ -42775,7 +42804,48 @@ dAKgyxPqOba4+H6H/Waz9RvXND6tfrTyrLOnNjzay1MtE3fldN6XxTq23G9As/du8xV2Dvpq95JG
 hSb0c5a2KQM1bKwNZa+N7CjP/B98MkhfxtUrMQAAAABJRU5ErkJggg==
 "
        id="image832"
-       x="-36.646591"
-       y="88.79052" />
+       x="-35.065701"
+       y="89.324104" />
+    <a
+       id="a4796"
+       xlink:href="https://mmatera.github.io/galeria_iflp/zipdrive.html"
+       transform="translate(-8.9958338)"
+       onmouseover="self.style.opacity=1"
+       onmouseout="self.style.opacity=0">
+      <path
+         style="opacity:0.289254;fill:#7ddcf9;fill-opacity:0.523549"
+         d="m 155.84834,189.27597 33.9067,1.34353 0.44715,-7.08822 -4.56446,-22.05892 -30.56045,-1.18672 -1.0568,6.97821 z"
+         id="path1231"
+         onmouseover="this.style.opacity=1"
+         onmouseout="this.style.opacity=0" />
+    </a>
+    <a
+       id="a3989"
+       xlink:href="https://mmatera.github.io/galeria_iflp/floppy325.html"
+       style="opacity:0.03182404;fill:#7ddcf9;fill-opacity:0.523549"
+       transform="translate(-90.70807,55.047923)"
+       onmouseover="this.style.opacity=1"
+       onmouseout="this.style.opacity=0">
+      <path
+         style="fill:#7ddcf9;fill-opacity:0.523549"
+         d="m 142.66515,184.5012 36.55253,3.4602 0.97632,-4.44239 7.11288,-24.83421 -22.12946,-2.64476 -21.16513,23.91154 z"
+         id="path1231-6"
+         onmouseover="this.style.opacity=1"
+         onmouseout="this.style.opacity=0"
+         sodipodi:nodetypes="ccccccc" />
+    </a>
+    <a
+       id="a12460"
+       xlink:href="https://mmatera.github.io/galeria_iflp/cinta.html"
+       style="fill:#7ddcf9;fill-opacity:0.52354902;opacity:0"
+       onmouseover="this.style.opacity=1"
+       onmouseout="this.style.opacity=0">
+      <path
+         id="path5202"
+         style="opacity:0.3;fill:#7ddcf9;fill-opacity:0.52354902;stroke:#2f65db;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.742172"
+         onmouseover="this.style.opacity=1"
+         onmouseout="this.style.opacity=0"
+         d="m 66.317797,156.35166 c -11.34461,0.20818 -23.02032,2.16092 -33.10986,7.53351 -5.38463,3.68262 -11.93915,7.29795 -14.21867,13.79239 -1.33069,4.75003 -3.115397,12.52292 3.77507,13.3374 9.109,2.72261 18.48323,4.69344 27.40532,7.95601 8.45901,3.80143 16.91802,7.60286 25.37703,11.40428 4.46575,-1.26571 -5.47566,-7.08252 1.18726,-6.05558 2.57486,-0.61211 -3.46376,-5.4743 -4.42047,-7.77709 -4.2625,-5.7063 -8.52501,-11.41261 -12.78752,-17.11892 14.945,-3.53967 29.88999,-7.07933 44.834993,-10.61899 2.17199,-1.4121 -5.512843,-4.9761 -7.233233,-6.34353 -9.41648,-4.93794 -20.3619,-5.85374 -30.80992,-6.10948 z" />
+    </a>
   </g>
 </svg>

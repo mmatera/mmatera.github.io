@@ -9,10 +9,15 @@ body {
 }
 
 
+.volver{
+    background: #ffa500;
+    background-image: url("volver.jpeg");
+}
+
 .muestradescripcion {
     border: none;
     padding: 1cm;
-    valign:top;
+    vertical-align:top;
 }
 
 

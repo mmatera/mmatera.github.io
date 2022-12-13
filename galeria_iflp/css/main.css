@@ -10,7 +10,6 @@ body {
 
 
 .muestradescripcion {
-    background: #ffa500;
     border: none;
     padding: 1cm;
     valign:top;
@@ -18,5 +17,10 @@ body {
 
 
 .ficha{
+        background: #ffa500;
+    background-image: url("fondoficha.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     page-break-before: always; max-width:100%; width:100%;
 }

@@ -1,0 +1,22 @@
+
+body {
+    background-image: url("../images/background2.jpg");
+    background-color: #cccccc;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    font-family: 'Roboto';font-size: 22px;
+}
+
+
+.muestradescripcion {
+    background: #ffa500;
+    border: none;
+    padding: 1cm;
+    valign:top;
+}
+
+
+.ficha{
+    page-break-before: always; max-width:100%; width:100%;
+}

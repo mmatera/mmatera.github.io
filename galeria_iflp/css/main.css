@@ -1,0 +1,88 @@
+
+body {
+    background-color: #cccccc;
+    font-family: 'Roboto';font-size: 22px;
+}
+
+h1{
+    font-size: 2remg;
+}
+
+#hero{
+    padding: 0 10%;
+    text-align: center;
+}
+
+#hero object{
+    max-width: 80%;
+    max-height: 60vh;
+    margin: auto;
+}
+
+.items{
+    display: flex;
+}
+
+.item{
+    background-color: #FFDC8A;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 0 15px;
+    padding: 10px;
+    flex: 50%;
+    font-size: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.job{
+    margin: 10px auto;
+    width: 85%;
+    border-radius: 15px;
+    background-color: #8ac8ff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.job img{
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+.volver{
+    background: #ffa500;
+    background-image: url("volver.jpeg");
+}
+
+.muestradescripcion {
+    border: none;
+    padding: 1cm;
+    vertical-align:top;
+}
+
+
+.ficha{
+    background: #ffa500;
+    background-image: url("fondoficha.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    page-break-before: always; max-width:100%; width:100%;
+}
+
+@media (max-width: 800px) {
+    #hero{
+        padding: 0 5%;
+    }
+    #hero object{
+        max-width: fit-content;
+    }
+    .items{
+        flex-wrap: wrap
+    }
+    .item{
+        flex: 100%;
+        margin: 15px 0px;
+        font-size: 0.7rem;
+    }
+}

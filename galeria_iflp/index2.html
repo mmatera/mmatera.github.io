@@ -125,7 +125,8 @@
       
 
     </div>
-    <!--Carrousel-->    
+    <!--Carrousel-->
+    <div style="text-align:center;">-</div>
   </section>
 
 
@@ -164,15 +165,16 @@
 
       slides[index].style.display = "block";
       dots[index].classList.add("active");
-  }
-
-  function animate(){
-      index = index + 1;
-      changeSlide();
-      setTimeout(animate, 3000);
+      setTimeout(animate, 5000);
   }
   
-  setTimeout(animate, 3000);
+  function animate(){
+      index = Math.floor(Math.random() * 7);
+      changeSlide();
+
+  }
+  
+
   changeSlide();
   
 </script>

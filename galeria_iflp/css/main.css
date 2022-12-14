@@ -1,11 +1,12 @@
 
 body {
-    background-color: #cccccc;
-    font-family: 'Roboto';font-size: 22px;
+    background-color: #eeeeee;
+    font-family: 'Roboto';
+    font-size: 22px;
 }
 
 h1{
-    font-size: 2remg;
+    font-size: 2rem;
 }
 
 #hero{
@@ -37,6 +38,7 @@ h1{
 .job{
     margin: 10px auto;
     width: 85%;
+    display:block;
     border-radius: 15px;
     background-color: #8ac8ff;
     padding: 10px;
@@ -86,3 +88,91 @@ h1{
         font-size: 0.7rem;
     }
 }
+
+
+
+#slider{
+    width:80%;
+    margin:0px auto;
+    margin-top: 100px;
+    max-width: 600px;
+    position:relative;
+    overflow:hidden;
+    border: 10px solid white;
+    box-shadow:2px 5px 10px rgba(0,0,0,0.4);;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.slide{
+    width:90%;
+    display:none;
+    animation-name:fade;
+    animation-duration:1.5s;
+}
+
+@keyframes fade{
+    from{opacity:0.5;}
+    to{opacity:1;}
+}
+
+img.slide{
+    width:100%;
+}
+
+
+#dots-con{
+    text-align:center;
+}
+
+.dot{
+    display:inline-block;
+    background:grey;
+    padding:8px;
+    border-radius:50%;
+    margin:10px 5px;
+}
+
+.active{
+    background:rgb(7, 67, 213);
+}
+
+.controls{
+    display: inline-block;
+    position:relative;
+    top:50%;
+    transform:translateY(150%);
+    font-size:1.5em;
+    padding:15px 10px;
+    border-radius:5px;
+}
+
+.controls:hover{
+    background:white;
+    transition:0.3s;
+}
+
+.controls:active{
+    color:grey;
+}
+
+
+@media (max-width:576px){
+    #slider{
+	width:100%;
+    }
+
+    .controls{
+	font-size:1em;
+    }
+
+    #dots-con{
+	display:none;
+    }
+}
+/*
+.slide{
+    display:none;
+}*/

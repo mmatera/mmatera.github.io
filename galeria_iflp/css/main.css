@@ -37,7 +37,7 @@ h1{
 
 .job{
     margin: 10px auto;
-    width: 85%;
+    width: 90%;
     display:block;
     border-radius: 15px;
     background-color: #8ac8ff;
@@ -104,7 +104,7 @@ h1{
 
 
 .slide{
-    width:90%;
+    width:100%;
     display:none;
     animation-name:fade;
     animation-duration:1.5s;
@@ -127,7 +127,6 @@ img.slide{
 .dot{
     display:inline-block;
     background:grey;
-    top:-100px;
     padding:8px;
     border-radius:50%;
     margin:10px 5px;
@@ -138,7 +137,7 @@ img.slide{
 }
 
 .controls{
-    display: inline-block;
+/*    display: inline-block;*/
     position:relative;
     top:50%;
     transform:translateY(150%);
